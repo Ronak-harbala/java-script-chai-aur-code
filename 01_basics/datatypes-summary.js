@@ -26,13 +26,40 @@ console.log(typeof bigNumber);
 // Array  , Objects
 
 
-const heros = ["shaktimaan" , "naagraj" , "doga"];
+// const heros = ["shaktimaan" , "naagraj" , "doga"];
 
-let myObj = {
-    name : "Ronak",
-    age : 22,
-    class : "AI3"
+// let myObj = {
+//     name : "Ronak",
+//     age : 22,
+//     class : "AI3"
+// }
+
+// console.log(myObj.name)
+
+//**********************************************************
+
+// Stack (Primitive) , Heap (Non-Primitive)
+
+let name1 = "Ronak"
+let anotherName = name1;
+
+anotherName = "harbala"
+
+console.log(name1)
+console.log(anotherName)
+
+
+let user1 = {
+    email : "ronakyadav2004@gmail.com",
+    password : "hello",
+
 }
 
-console.log(myObj.name)
+let user2 = user1;
+
+user2.password = "kyaLikhu"
+
+console.log(user1);
+
+
 
